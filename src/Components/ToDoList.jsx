@@ -13,7 +13,7 @@ const ToDoList = () => {
             completed: false,
         },
     ]);
-    
+
     const [text, setText] = useState('');
     function addTask(text) {
         const newTask = {
